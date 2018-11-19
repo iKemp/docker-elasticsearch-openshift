@@ -7,6 +7,7 @@ ADD config /usr/share/elasticsearch/config
 
 # Set environment variables defaults
 ENV ES_JAVA_OPTS="-Xms512m -Xmx512m" \
+    NODE_NAME=default_node \
     MEMORY_LOCK=false \
     DISCOVERY_SERVICE=elasticsearch-discovery \
     CLUSTER_NAME=elasticsearch-default \
